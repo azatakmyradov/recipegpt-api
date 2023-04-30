@@ -17,7 +17,7 @@ class OpenAI {
             model: 'text-davinci-003',
             prompt: prompt,
             max_tokens: max_tokens,
-            temperature: temperature
+            temperature: temperature,
         });
     }
 }
